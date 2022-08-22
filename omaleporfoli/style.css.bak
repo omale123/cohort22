@@ -1,0 +1,82 @@
+
+
+
+body{
+	
+	background-color:#0E100A;
+}
+#nav{
+	background-color:#001F3D;
+	margin-top:0px;
+	
+}
+ul{
+	list-style-type:none;
+	display:flex;
+	margin-top:0px;
+	clear:both;
+	justify-content:space-between;
+
+}
+a{
+	text-decoration:none;
+	color:#ADF0D1;
+}
+a:hover{
+	color:red;
+	
+	
+}
+#banner{
+	justify-content:space-around;
+	background-image: url('images/pro.webp');
+	background-size:cover;
+	height:500px;
+	margin-top:20px;
+}
+#banner img{
+	background-size:cover;
+	height:200px;
+	
+}
+.header{
+	margin-left:30px;
+
+	
+}
+#aboutus{
+	color:black;
+	text-align:center;
+	background-color:#001F3D;
+	color:#ADF0D1;
+	
+}
+h4{
+	color:red;
+	
+}
+@media all and (min-width:400px)  and (max-width:700px){
+		#div{
+			
+			display:block;
+			
+		}
+	
+	#service{
+		display:block;
+		
+	}
+	#row{
+		
+		display:block;
+	}
+	#nav{
+		display:block;
+		
+	}
+	ul{
+		
+		flex-direction:column;
+	}
+	
+}

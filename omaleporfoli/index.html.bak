@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>omaleportforlio</title>
+	<meta name="charset" content="utf-8" />
+	<meta name="width=device-width, initail-scale=1, shrink-to-fit=no">
+	<!----- bootstrap stylesheet-->
+	
+	<link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+	<link rel="stylesheet" href="fontawesome/css/all.min.css">
+	<link rel="stylesheet" href="style.css">
+	
+	
+	
+</head>
+<body>
+<div class="container">
+
+<!-----navigation menu-->
+<div class="row" id="nav">
+<div class="col-4">
+<div id="img">
+<img src="images/logo.jpg" style="height:40px; float:left;">
+</div>
+<p style="color:#ADF0D1;"> <b><span style="color:red; margin-left:20px;">Omalion</span></b></p>
+</div>
+<div class="col-md-8">
+<p>
+<ul>
+<li><a href="">Home</a></li>
+<li><a href="#service">Service</a></li>
+<li><a href="#port">Portfolio</a></li>
+<li><a href="">Contact Me</a></li>
+<li><a href="#aboutus">
+<button style="color:#ADF0D1; background-color:#001F3D;"  data-bs-toggle="offcanvas" data-bs-target="#aboutus" aria-controls="offcanvas">
+About Me</button>
+</a></li>
+<li><a href="#hire">
+<button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#hire">
+  Hire Me
+</button>
+
+
+
+</a></li>
+
+</ul>
+</p>
+
+</div>
+</div>
+
+<!----banner image--->
+
+<div class="row" id="banner">
+<div class="col-4" style="margin-top:30px;">
+<div class="header">
+<h2 style="margin-left:30px; color:red;">I'm</h2>
+<h2 style="margin-left:30px; color:#EEE04A;">Omale</h2>
+<h3 style="margin-left:30px; color:#ADF0D1;">Software Developer</h3>
+<p style="color:#ADF0D1;">
+I'm a software developer and also a web developer<br>
+i specialize in Html Css and Java<br>
+python and php for back and front end developer.
+
+</p>
+<div>
+<img src="images/dev1.png">
+</div>
+</div>
+
+</div>
+<div class="col-6" style="margin-top:100px;">
+<div>
+<img src="images/fb.png" style="width:500px; height:400px;">
+</div>
+
+</div>
+
+
+
+
+
+
+</div>
+
+<!---service-->
+<div class="row" style="justify-content:space-around; background-size:cover; margin-top:50px; background-color:#FFFFFF; display:flex;" 
+id="service">
+<h1 align="center" style="color:#AA8773; margin-top:20px;">What Can I Do</h1>
+<div class="col-3"> 
+<div>
+<img src="images/ux.png" style="height:100px;">
+</div>
+
+</div>
+
+<div class="col-3">
+<div>
+<img src="images/digital1.png" style="height:100px;">
+
+</div>
+
+</div>
+<div class="col-3">
+<div>
+<img src="images/mobile.png" style="height:100px;" >
+
+</div>
+
+</div>
+
+<!-----service text row--->
+
+<div class="row" style="justify-content:space-around; background-size:cover; background-color:#AA8773; display:flex;" 
+id="div">
+
+<div class="col-3">
+<div>
+<p style="color:#FFFFFF;">
+Software Developer<br>
+<span style="color:red;">  At omalion</span>
+ 
+
+</p>
+
+
+</div>
+
+
+</div>
+<div class="col-3">
+<div>
+
+<p style="color:#FFFFFF;">
+Graphic design<br>
+<span style="color:red;"> At Omalion </span>
+</p>
+
+
+</div>
+
+</div>
+<div class="col-3">
+
+<div>
+<p style="color:#FFFFFF;">
+
+MObile Application<br>
+<span style="color:red;">At Omalion</span>
+
+
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+<!---end service--->
+<div class="row" style="justify-content:space-around; background-color;">
+<h1 align="center" style="color:silver; margin-top:50px:" id="por"> Portfolio</h1>
+<div class="col-3" style="background-color:#FFFFFF;">
+<div style="background-color:#FFFFFF;">
+<h2 style="color:red">Html</h2>
+<p style="background-color:#FFFFFF;">
+Html is a hypertext markup language<br>
+is use for creating of<br>
+1.Web Document<br>
+2.Internet Navigation<br>
+3.Client side storage<br>
+4.Data Entry Support<br>
+
+
+</p>
+
+</div>
+
+
+</div>
+<div class="col-3">
+<h2 style="color:red; maargin-left:20px;">css</h2>
+<p style="background-color:#FFFFFF;">
+i use css for cascading stylesheet<br>
+to my website and make it applearling<br>
+for the eyes of the users<br>
+intense of my color shape and position.
+
+</p>
+
+</div>
+<div class="col-3">
+<h2 style="color:red"> Java script</h2>
+<p style="background-color:#FFFFFF;">
+
+java script help in the aspect of responsiveness<br>
+and control my website behaviour to responses to <br>
+to my users devices.<br>
+</p>
+
+</div>
+</div>
+
+</div>
+
+
+
+<!-- Modal -->
+<div class="modal fade" id="hire" tabindex="-1" aria-labelledby="hire" aria-hidden="true">
+  <div class="modal-dialog modal-sm">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="hire"><span style="color:red;">Please Fill This Form</span></h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div class="row">
+		<div class="col-md-12">
+		<form action="get" method="post">
+		<label>FullName</label><br>
+		<input type="text" name="fullname" class="form-control"><br>
+		<label>Phone No</label><br>
+		<input type="tel" name="phoneno" class="form-control"><br>
+		<label> Email</label><br>
+		<input type="text" name="email" class="form-control"><br>
+		<label> Enter Your Home Address</label><br>
+		<textarea></textarea><br>
+		
+		</form>
+		</div>
+		</div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Clear</button>
+        <button type="button" class="btn btn-primary">Submit</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!----about us-->
+<div class="offcanvas offcanvas-end" tabindex="-1" id="aboutus" aria-labelledby="offcanvasRightLabel">
+  <div class="offcanvas-header">
+    <h1 class="offcanvas-title" id="aboutus">About Me</h1>
+    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+  <div class="offcanvas-body">
+    <div class="row">
+	<div class="col-md-12">
+	<p>
+	<img src="images/fb.png" style="height:200px; border-radius:50%;">
+	</p>
+	<span>i'm omale a software developer from Moat Academy Cohort22<br>
+	i obtained a certificate of completion as a fullstack developer<br>
+	this Portfolio  will help those who are looking for a well  responsive<br>
+	website omalion is here to help you with all the designs that will make <br>
+	your website look attractive to your users. 	
+	</span>
+	</div>
+	</div>
+	
+	<div style="background-color:#AA8773; height:50px;">
+	<p style="color:black;">
+	© 2022 
+Omalion software developer | All Rights Reserved
+	</p>
+	
+	</div>
+  </div>
+  
+  
+</div>
+
+
+
+<script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
